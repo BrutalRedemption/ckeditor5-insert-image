@@ -1,5 +1,5 @@
 {
-  "name": "@brutaldemption/ckeditor5-insert-image",
+  "name": "@brutalredemption/ckeditor5-insert-image",
   "version": "1.3.0",
   "description": "Adds support for inserting images into the CKEditor 5",
   "main": "insert-image.js",
