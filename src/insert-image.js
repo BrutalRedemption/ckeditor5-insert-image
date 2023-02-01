@@ -1,5 +1,5 @@
 /**
- * @license Copyright (c) 2003-2023, DeventIT
+ * @license Copyright (c) 2003-2023, BrutalRedemption
  * 
  * 
  * @title Insert Image Plugin
@@ -10,6 +10,9 @@
  * 
  * 
  * @createDate 30-01-2023
+ * 
+ * @module insert-image/insert-image
+ * @extends module:core/plugin~Plugin
  */
 
  import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
@@ -17,6 +20,17 @@
  import InsertImageUI from './insert-image-ui';
  
  export default class InsertImage extends Plugin {
+
+    /**
+	 * @inheritDoc
+	 */
+	static get pluginName() {
+		return 'InsertImage';
+	}
+
+    /**
+     * @inheritdoc
+     */
      static get requires() {
          return [ InsertImageEditing, InsertImageUI ];
      }

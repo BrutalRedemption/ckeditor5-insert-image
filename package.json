@@ -2,7 +2,7 @@
   "name": "ckeditor5-insert-image",
   "version": "1.1.0",
   "description": "Adds support for inserting images into the CKEditor 5",
-  "main": "insert-image-editing.js",
+  "main": "insert-image.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,13 +11,50 @@
     "url": "git+https://github.com/BrutalRedemption/ckeditor5-insert-image.git"
   },
   "keywords": [
+    "insert-image",
+    "ckeditor",
     "ckeditor5",
-    "insert-image"
+    "ckeditor 5",
+    "ckeditor5-feature",
+    "ckeditor5-plugin",
+    "ckeditor5-dll"
   ],
   "author": "BrutalRedemption",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/BrutalRedemption/ckeditor5-insert-image/issues"
   },
-  "homepage": "https://github.com/BrutalRedemption/ckeditor5-insert-image#readme"
+  "homepage": "https://github.com/BrutalRedemption/ckeditor5-insert-image#readme",
+  "dependencies": {
+    "@ckeditor/ckeditor5-core": "^34.0.0",
+    "@ckeditor/ckeditor5-engine": "^34.0.0",
+    "@ckeditor/ckeditor5-utils": "^34.0.0",
+    "@ckeditor/ckeditor5-widget": "^34.0.0",
+    "lodash-es": "^4.17.11"
+  },
+  "devDependencies": {
+    "@ckeditor/ckeditor5-alignment": "^34.0.0",
+    "@ckeditor/ckeditor5-basic-styles": "^34.0.0",
+    "@ckeditor/ckeditor5-block-quote": "^34.0.0",
+    "@ckeditor/ckeditor5-cloud-services": "^34.0.0",
+    "@ckeditor/ckeditor5-code-block": "^34.0.0",
+    "@ckeditor/ckeditor5-easy-image": "^34.0.0",
+    "@ckeditor/ckeditor5-editor-classic": "^34.0.0",
+    "@ckeditor/ckeditor5-enter": "^34.0.0",
+    "@ckeditor/ckeditor5-horizontal-line": "^34.0.0",
+    "@ckeditor/ckeditor5-image": "^34.0.0",
+    "@ckeditor/ckeditor5-link": "^34.0.0",
+    "@ckeditor/ckeditor5-page-break": "^34.0.0",
+    "@ckeditor/ckeditor5-paragraph": "^34.0.0",
+    "@ckeditor/ckeditor5-paste-from-office": "^34.0.0",
+    "@ckeditor/ckeditor5-remove-format": "^34.0.0",
+    "@ckeditor/ckeditor5-table": "^34.0.0",
+    "@ckeditor/ckeditor5-typing": "^34.0.0"
+  },
+  "files": [
+    "lang",
+    "src",
+    "theme",
+    "ckeditor5-metadata.json"
+  ],
 }
