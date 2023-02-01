@@ -1,0 +1,23 @@
+{
+  "name": "ckeditor5-insert-image",
+  "version": "1.0.0",
+  "description": "Adds support for inserting images into the CKEditor 5",
+  "main": "insert-image-editing.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrutalRedemption/ckeditor5-insert-image.git"
+  },
+  "keywords": [
+    "ckeditor5",
+    "insert-image"
+  ],
+  "author": "BrutalRedemption",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrutalRedemption/ckeditor5-insert-image/issues"
+  },
+  "homepage": "https://github.com/BrutalRedemption/ckeditor5-insert-image#readme"
+}
