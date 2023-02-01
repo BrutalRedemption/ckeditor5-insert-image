@@ -1,6 +1,6 @@
 {
   "name": "ckeditor5-insert-image",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Adds support for inserting images into the CKEditor 5",
   "main": "insert-image.js",
   "scripts": {
